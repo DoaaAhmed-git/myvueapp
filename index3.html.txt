@@ -5,6 +5,7 @@
     <title>vuejs-playlist</title>
   </head>
   <body>
+  <h1>new branch</h1>
     <div id="app"></div>
     <script src="/dist/build.js"></script>
   </body>
