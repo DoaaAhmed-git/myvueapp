@@ -5,7 +5,14 @@
     <title>vuejs-playlist</title>
   </head>
   <body>
+<<<<<<< HEAD
   <h1>new branch</h1>
+=======
+  <h1>new modify</h1>
+  <h1>new modify</h1>
+  
+
+>>>>>>> development2
     <div id="app"></div>
     <script src="/dist/build.js"></script>
   </body>
