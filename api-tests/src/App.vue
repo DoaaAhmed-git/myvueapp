@@ -284,66 +284,7 @@ axios.post(`https://shark-app-mby94.ondigitalocean.app/api/follow/${user2._id}`,
 },
 
 
-////////////////////////////////////////////////////////
-// add(product , qyt){
 
-//   var prodQyt = 0;
-// var foundprouct = false;s
-
-// for(var [idx, p] of this.cart.entries())
-// {
-// if (p.id == product.id) {
-//   this.cart[idx].qyt+= qyt
-//   foundprouct = true;
-// }
-// }
-// if (!foundprouct) {
-//   this.cart.push({ 
-//     id:product.id , name:product.name , color:product.color , type:product.type , qyt:product.qyt , price: product.price
-//   })
-// }
-
-// // var total = item.qyt * item.price;
-// // var total2 = total++; 
-
-// },
-// ////////////////////////////////////////////////////////
-
-// addfav(product){
-// var foundprouct = false;
-// for(var [idx, p] of this.cart2.entries())
-// {
-// if (p.id == product.id) {
-//   this.cart2[idx].fav= true; 
-//   var foundprouct = true; 
-// }
-// }
-// if (!foundprouct) {
-//   this.cart2.push({ 
-//     id:product.id , name:product.name , color:product.color , type:product.type , qyt:product.qyt , price: product.price
-//   })}
-// },
-
-// ////////////////////////////////////////////////////////
-
-// totall(product , qyt){
-//   var total = 0;
-// for(var [idx, p] of this.cart.entries())
-// {
-// total+=p.qyt * p.price;  
-// }
-// return total;
-// },
-// ////////////////////////////////////////////////////
-
-// del(index){
-// // for( var item of this.cart){
-// this.cart.splice(index , 1);
-// //}
-
-// },
-
-// /////////////////////////////////////////////////////////
 
 
 
