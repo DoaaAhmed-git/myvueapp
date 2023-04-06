@@ -15,20 +15,7 @@
 
     </div>
   </nav><!-- End Header/Navbar -->
-<!-- <div>
- <ol>
-    <li >
-    
-      <ul  v-for="category in Categories" :key="category.id" >
-        <li v-for="product in topic" :key="product.name">
-          <p>
-            {{ category }}
-          </p>
-        </li>
-      </ul>
-    </li>
-  </ol>
-  </div> -->
+
 <div class="row"  v-for=" category in Categories">
 
   <div class="column"  v-for="topic in category.categoryTopics " >
@@ -196,17 +183,6 @@ export default {
     
     return {
 
-anas: [
-{"name":"fawndation", "price":4 , "qyt":0 , "id":1, "color":"dark" , "type":"Fcae" , "fav":false}, 
-{"name":"bawder",     "price":2 , "qyt":0 , "id":2 , "color":"light" , "type":"Fcae" , "fav":false},
-{"name":"konselar",   "price":5 , "qyt":0 , "id":3 , "color":"middel" , "type":"Fcae" , "fav":false},
-{"name":"konselar",   "price":5 , "qyt":0 , "id":4 , "color":"dark" , "type":"Fcae" , "fav":false}
-
- ],
-cart:[],
-cart2:[],
-total: 0,
-total2:0,
 
               name: '',
 
