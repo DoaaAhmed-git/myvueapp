@@ -2,42 +2,15 @@
   <div id="app">
 
 <!-- Header-->
-       <a class="menu-toggle rounded"  @click="show"  style="color: pink;" ><i class="fas fa-bars">BASKET</i></a>
-        <nav id="sidebar-wrapper"  v-if="appear"  >
-            <ul class="sidebar-nav"  >
-               
-                <div class="row" v-for="(item , index) in cart"  > 
-<ul class="ull" >
-  <li class="lii">{{item.name}}</li>
-<li class="lii">Total: {{item.qyt * item.price}}</li>
-<li class="lii">Qyt:{{item.qyt}} </li>
-<button  @click="del(index)" >delete</button>
-</ul>
-            </div>
-           <p> Total: {{totall()}} </p>
-            </ul>
-        </nav>
 
  <!-- ======= Header/Navbar ======= -->
   <nav  class="nav2">
     <div class="row">
     
-      <a style="color: pink;">PINK SHOPE</a>
+      <a style="color: pink;"></a>
 
       <div >
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            EYE
-            </li>
-          <li class="nav-item">
-           FACE
-          </li>
-          <li class="nav-item">
-            LIPS
-          </li>
-          <li class="nav-item">
-          </li>
-        </ul>
+        
       </div>
 
     </div>
@@ -56,7 +29,7 @@
     </li>
   </ol>
   </div> -->
-<!-- <div class="row"  v-for=" category in Categories">
+<div class="row"  v-for=" category in Categories">
 
   <div class="column"  v-for="topic in category.categoryTopics " >
     <div class="flip-card">
@@ -76,7 +49,7 @@
   </div>
 </div>
   </div>
-</div> -->
+</div>
 
 
 <div class="card-container" >
@@ -183,42 +156,7 @@
       </label>
       <button type="submit">Reset password</button>
     </form>
-<!--         <header class="masthead d-flex align-items-center">
-        </header>
-<div class="row"  v-for="product in anas" :key="product.id">
 
-  <div class="column">
-    <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="./assets/make (7).jpg" alt="Avatar" style="width:300px;height:300px;">
-    </div>
-    <div class="flip-card-back" >
-    <h1> {{product.name}}</h1>
-       <h4>Price: {{product.price}}</h4>
-       <h4>Qty: {{product.qyt}} </h4>
-       <h4>color: {{product.color}}</h4>
-       <h4>type: {{product.type}}</h4>
-       <br>
-        <input type="number" v-model.number="product.qyt">
-      <button v-on:click='add(product, product.qyt)'>Basket</button>
-      <button v-on:click='addfav(product)' >luv</button>
-      
-    </div>
-  </div>
-</div>
-  </div>
-</div> -->
-<br>
- <!--             <div class="row" v-for="item in cart2"  > 
-<ul class="ull" >
-  <li class="lii">name:{{item.name}}</li>
-<li class="lii">color: {{item.color}}</li>
-<li class="lii">type:{{item.type}} </li>
-<li class="lii">price:{{item.price}} </li>
-
-</ul>
-            </div> -->
 
 <last></last>
 
